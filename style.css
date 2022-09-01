@@ -100,7 +100,7 @@ header{
     justify-content: center;
 }
 #msg{
-    max-height: 122px; 
-    max-width: 421px;
+    /* max-height: 122px; 
+    max-width: 400px; */
     margin: auto;
 }
