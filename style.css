@@ -33,17 +33,20 @@ fieldset{
     border-radius: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
 
 }
 fieldset:hover{
     border-color: #f1010165;
-  
     word-break: break-word;
     font-weight: bold;  
     margin: auto;
     background-color: #c4e5f65b;
     margin-top: 15px;
     margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .formulario{
     /* margin-left: 20px; */
