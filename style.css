@@ -1,6 +1,6 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 13px;
+    font-size: 10px;
     background-image: linear-gradient(to bottom,#C4E5F6,#c4e5f69c,transparent);
    
 }
@@ -16,6 +16,8 @@ div#principal{
     border-radius: 4px;
     margin-bottom: 30px;
     box-shadow: 1px 2px 9px 1px rgba(0, 0, 0, 0.288);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 label {
@@ -23,18 +25,19 @@ label {
 }
 fieldset{
     border-color: #cecece;
-    max-width:  500px;
     word-break: break-word;
     font-weight: bold;
     margin: auto;
     background-color: #c4e5f638;
     /* transition-duration: 1.1s; */
     border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 
 }
 fieldset:hover{
     border-color: #f1010165;
-    max-width:  500px;
+  
     word-break: break-word;
     font-weight: bold;  
     margin: auto;
@@ -44,10 +47,10 @@ fieldset:hover{
 }
 .formulario{
     /* margin-left: 20px; */
-    margin-bottom: 10px;
+    margin-bottom: 1px;
 }
 Form#formulario{
-    margin-left: 20px;
+    margin-left: 0px;
     margin-bottom: 10px;
 }
 footer{
@@ -63,20 +66,21 @@ fieldset#sexo{
 p{
     margin-bottom: 10px;
     padding: 2px;
+    word-spacing: 2px
 }
 input{
-    margin-right: 20px;
+    margin-right: 2px;
     border-radius: 5px;
-    padding-top: 10px;
+    padding-top: 5px;
     transition-duration: 1.1s;
     transform: scale(0.8);
 }
 input:hover{
-    margin-right: 20px;
+    margin-right: 2px;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
     background-color: #cececebe;
-    transform: scale(0.8);
+    /* transform: scale(0.8); */
  
 }
 #telefones{
@@ -91,4 +95,9 @@ input:hover{
 header{
     display: flex;
     justify-content: center;
+}
+#msg{
+    height: 122px; 
+    width: 421px;
+    margin: auto;
 }
