@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+    <title>Landing page</title>
+</head>
+<body>
+    <header>
+        <a href="https://www.faesa.br" target="_blank"><img  id="logo" src="imagens/faesa.png"></a>
+    </header>
+    <div id="principal">
+        <form action="" id="formulario">
+            <fieldset id="Dadospessoais">
+                <legend>Dados para contato</legend>
+                <p><label>Nome completo:<input type="text" class="formulario" id="nome" size="45"></label></p>
+                <!-- <p><label>Email:<input type="email" id="Email" class="formulario"></label></p> -->
+                <p><label for="Email">Email:</label> <input type="email" id="Email" class="formulario"></p>
+                <p>
+                        Sexo:
+                        <input type="radio" name="tSexo" id="cMasc"><label for="cMasc">Masculino</label>
+                        <input type="radio" name="tSexo" id="cFem"> <label for="cFem">Feminino</label>   
+                </p>
+                <p id="telefones"><label>Numero de Celular:<input type="number" id="Celular" class="formulario" size="10"></label>
+                <label>Numero de Telefone Fixo :<input type="number" id="TelefoneFixo" class="formulario" size="15"></label></p>
+            </fieldset>
+            <fieldset id="endereco">
+                <legend>Endereço</legend>
+                <p><label>Logradouro:<input type="text" class="formulario" id="NomeRua" size="45"></label></p>
+                <p><label>Número:<input type="number" class="formulario" id="NumeroRua" size="45"></label></p>
+                <p><label>bairro:<input type="text" class="formulario" id="bairro" size="45"></label></p>
+                <p><label>Cidade:<input type="text" class="formulario" id="cidade" size="45"></label></p>
+                <p><label>Estado:<input type="text" class="formulario" id="Estado" size="45"></label></p>
+            </fieldset>
+            <fieldset id="mensagem" >
+                <legend>Conte um pouco sobre você</legend>
+                    <p>Mensagem:<br> <br> <textarea class="formulario"  cols="45" rows="5" placeholder="Deixe aqui sua mensagem"></textarea></p>
+            </fieldset>
+        </form>
+    </div>
+    <footer>
+        <p> <a href="#">Github </a>- <a href="#">Linkedin</a> </p>
+        <p>	&copy; Gustavo de Souza</p>
+    </footer>
+</body>
+</html>
