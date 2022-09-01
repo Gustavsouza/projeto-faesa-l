@@ -28,7 +28,7 @@ fieldset{
     font-weight: bold;
     margin: auto;
     background-color: #c4e5f638;
-    transition-duration: 1.1s;
+    /* transition-duration: 1.1s; */
     border-radius: 10px;
 
 }
