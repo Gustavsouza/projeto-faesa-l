@@ -2,12 +2,15 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 10px;
     background-image: linear-gradient(to bottom,#C4E5F6,#c4e5f69c,transparent);
+    margin-bottom: 100px;
    
 }
 
 div#principal{
-    max-width: 100vh;
-    max-height: 100vh;
+    width:auto;
+    height: auto;
+    max-width:500px;
+    /* max-height: 500px; */
     margin: auto;
     text-align: justify;
     background-color: #fffffff1;
@@ -35,6 +38,9 @@ fieldset{
     margin-bottom: 15px;
     margin-left: 10px;
     margin-right: 10px;
+    max-width:500px;
+    /* max-height: 500px; */
+
 
 }
 fieldset:hover{
@@ -99,7 +105,15 @@ header{
     display: flex;
     justify-content: center;
 }
-#msg{
+/* #mensagem{
     max-width: 100px; 
     margin: auto;
+    background-color: black;
+    position: relative;
+    display: flex;
+    
+} */
+legend#endereco2{
+    font-size: 12px;
+    font-weight: 800;
 }
