@@ -17,27 +17,35 @@
         <form action="" id="formulario">
             <fieldset id="Dadospessoais">
                 <legend>Dados para contato</legend>
-                <p><label>Nome completo:<input type="text" class="formulario" id="nome" ></label></p>
-                <!-- <p><label>Email:<input type="email" id="Email" class="formulario"></label></p> -->
-                <p><label for="Email">Email:</label> <input type="email" id="Email" class="formulario"></p>
-                <p>
-                        Sexo:
-                        <input type="radio" name="tSexo" id="cMasc"><label for="cMasc">Masculino</label>
-                        <input type="radio" name="tSexo" id="cFem"> <label for="cFem">Feminino</label>   
-                </p>
-                <p id="telefones"><label>Numero de Celular:<input type="number" id="Celular" class="formulario"></label></p>
-                <p>Número de telefone Fixo:<input type="number" id="TelefoneFixo" class="formulario"></p>
+                <fieldset>
+                    <legend> Dados Pessoais</legend>
+                    <p><label>Nome completo:<input type="text" class="formulario" id="nome" ></label></p>
+                    <!-- <p><label>Email:<input type="email" id="Email" class="formulario"></label></p> -->
+                    <p><label for="Email">Email:</label> <input type="email" id="Email" class="formulario"></p>
+                    <p>
+                            Sexo:
+                            <input type="radio" name="tSexo" id="cMasc"><label for="cMasc">Masculino</label>
+                            <input type="radio" name="tSexo" id="cFem"> <label for="cFem">Feminino</label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Contato Telefônico / Whatsapp </legend>
+                    <p id="telefones"><label>Numero de Celular:<input type="number" id="Celular" class="formulario"></label></p>
+                    <p>Número de telefone Fixo:<input type="number" id="TelefoneFixo" class="formulario"></p>
+                </fieldset>
            
            
-                <legend id="endereco2">Endereço</legend>
-                <p><label>Logradouro:<input type="text" class="formulario" id="NomeRua" size="25"></label></p>
-                <p><label>Número:<input type="number" class="formulario" id="NumeroRua" ></label></p>
-                <p><label>Cidade:<input type="text" class="formulario" id="cidade"></label></p>
-                <p><label>bairro:<input type="text" class="formulario" id="bairro"></label></p>
-                <p><label>Estado:<input type="text" class="formulario" id="Estado"></label></p>
+                <fieldset>
+                    <legend id="endereco2">Endereço</legend>
+                    <p><label>Logradouro:<input type="text" class="formulario" id="NomeRua" size="25"></label></p>
+                    <p><label>Número:<input type="number" class="formulario" id="NumeroRua" ></label></p>
+                    <p><label>Cidade:<input type="text" class="formulario" id="cidade"></label></p>
+                    <p><label>bairro:<input type="text" class="formulario" id="bairro"></label></p>
+                    <p><label>Estado:<input type="text" class="formulario" id="Estado"></label></p>
+                </fieldset>
         
-            
-               <p>Conte um pouco sobre você</p>
+            <fieldset id="mensagem" >
+                <legend>Conte um pouco sobre você</legend>
                     <p class="msg"><textarea class="formulario" class="msg" placeholder="Deixe aqui sua mensagem"></textarea></p>
             </fieldset>
         </fieldset>
