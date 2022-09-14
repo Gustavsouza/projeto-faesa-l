@@ -1,12 +1,9 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 10px;
     background-image: linear-gradient(to bottom,#C4E5F6,#c4e5f69c,transparent);
-    margin-bottom: 100px;
-   
+    height: 100vh;
 }
-
-div#principal{
+#formulario{
     width:auto;
     height: auto;
     max-width:500px;
@@ -22,82 +19,11 @@ div#principal{
     padding-left: 10px;
     padding-right: 10px;
 }
-
-label {
-    display: inline-block;
-}
-fieldset{
-    border-color: #cecece;
-    word-break: break-word;
-    font-weight: bold;
-    margin: auto;
-    background-color: #c4e5f638;
-    /* transition-duration: 1.1s; */
-    border-radius: 10px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
-    max-width:500px;
-    /* max-height: 500px; */
-
-
-}
-fieldset:hover{
-    border-color: #f1010165;
-    word-break: break-word;
-    font-weight: bold;  
-    margin: auto;
-    background-color: #c4e5f65b;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.formulario{
-    /* margin-left: 20px; */
-    margin-bottom: 1px;
-}
-Form#formulario{
-    margin-left: 0px;
-    margin-bottom: 10px;
-}
-footer{
-    /* max-width: 100vh; */
-    margin: auto;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-fieldset#sexo{
-    width: 250px;
-}
-p{
-    margin-bottom: 10px;
-    padding: 2px;
-    word-spacing: 2px
-}
-input{
-    margin-right: 2px;
-    border-radius: 5px;
+label{
+    display: block;
+    font-weight: 700;
     padding-top: 5px;
-    transition-duration: 1.1s;
-    transform: scale(0.8);
 }
-input:hover{
-    margin-right: 2px;
-    border-radius: 5px;
-    padding: 5px;
-    background-color: #cececebe;
-    /* transform: scale(0.8); */
- 
-}
-/* #telefones{
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0);
-    font-size: 10px;
-    overflow: hidden;
-} */
 #logo{
     max-width: 300px;
 }
@@ -105,22 +31,11 @@ header{
     display: flex;
     justify-content: center;
 }
-/* #mensagem{
-    max-width: 100px; 
-    margin: auto;
-    background-color: black;
-    position: relative;
-    display: flex;
-    
-} */
-legend{
-    font-size: 12px;
-    font-weight: 800;
-    background: rgba(4, 250, 242, 0.479);
-    background: radial-gradient(circle, rgba(4, 250, 242, 0.281) 0%, rgba(148, 188, 233, 0.336) 100%);
-}
-p{
-    font-size: small;
+footer{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
 }
 .botao{
     cursor:pointer;
@@ -148,10 +63,22 @@ p{
     min-width: 50px;
     border-radius: 3px;
     box-shadow: 1px 1px 2px 1px rgba(135, 207, 235, 0.493);
+    margin-top:10px;
 }
 #divbotao{
-margin: 0 auto;
-width: auto;
-text-align: center;
-margin-bottom: 10px;
+    margin: 0 auto;
+    width: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+input {
+    width: 100%
+}
+#divmsg{
+    margin: auto;
+    text-align: center;
+}
+#Mensagem{
+    margin: 10px;
 }
